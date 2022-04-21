@@ -39,10 +39,11 @@ for i in li:
     sum+=i
 avg=sum/10
 
-print("\nElements greater then avg of elements: ")
+greaterElementCount = 0
 for i in li:
-    if i>avg:
-        print(i,end=' ')
+    if i > avg:
+        greaterElementCount += 1
+print(greaterElementCount)
 
 alternate_sum=0
 for i in range(10):
